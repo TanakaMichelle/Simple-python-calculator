@@ -1,6 +1,20 @@
-# simple addition
+#variables
+num1 = float(input("Enter a number:"))
+num2 = float(input("Enter a second number:"))
+operator = input("Enter the operator: ")
 
-num1 = input("Enter a number: ")
-num2 = input("Enter a second number: ")
-ans = int(num1) + int(num2)
-print("The answer is: ", ans)
+# simple addition
+if operator == "+":
+    print(num1 + num2)
+# subtraction
+elif operator == "-":
+    print(num1 - num2)
+# multiplication
+elif operator == "*":
+    print(num1 * num2)
+# division
+elif operator == "/":
+    print(num1 / num2)
+
+else:
+    print("Invalid input!")
