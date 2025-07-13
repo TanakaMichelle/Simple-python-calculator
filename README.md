@@ -1,3 +1,3 @@
 # Simple-python-calculator
 
-A basic calculator with basic opeations i.e. addition,multiplication, subtraction and division operations.
+A basic calculator with basic operations i.e. addition, multiplication, subtraction and division.
